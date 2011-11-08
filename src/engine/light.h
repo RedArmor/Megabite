@@ -1,3 +1,8 @@
+#ifndef LIGHT_H
+#define LIGHT_H
+
+#include <GL/glut.h>
+
 class light {
 public:
     light(int id, int type, float red, float green, float blue, float x, float y, float z);
@@ -29,3 +34,5 @@ private:
     int id;
     int type;
 };
+
+#endif // #ifndef LIGHT_H
